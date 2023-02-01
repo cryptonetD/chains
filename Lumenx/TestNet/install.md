@@ -80,3 +80,7 @@ The output of the command is going to be file located in .lumenx/config/gentx/ f
 
 The chain has to communicate. The initial peers list consists of two addresses. It is enough to start chain: [persistent_peers](./persistent_peers.txt)
 
+# Next steps
+
+All gentx files are going to be collected into genesis file. New genesis is goint to be pushed into the repo together with persistent_peers. The chain is going to be ready to be started.
+
