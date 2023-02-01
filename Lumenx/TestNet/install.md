@@ -72,7 +72,7 @@ Your account address is going to be needed to create correct genesis with certai
 This part is the most complicated one and has to be done with care. Gentx transactions will create genesis validators records in the zero block of the chain.
 Gentx transaction has to be created with the key created above. Chain has to be correctly initiated. Amount of initial transaction is also important. **You can not create transaction with lower amount!**
 
-    ./lumenxd gentx <YOUR_KEY_NAME> 1000000ulumen --generate-only --offline --chain-id lumenx-test --amount 1000000stake
+    lumenxd gentx <YOUR_KEY_NAME> 1000000ulumen --generate-only --offline --chain-id lumenx-test --amount 1000000stake
 
 The output of the command is going to be file located in .lumenx/config/gentx/ folder. **The content of the file can not be changed manually!**. Place the content of the file here:
 
