@@ -82,5 +82,5 @@ The chain has to communicate. The initial peers list consists of two addresses. 
 
 # Next steps
 
-All gentx files are going to be collected into genesis file. New genesis is goint to be pushed into the repo together with persistent_peers. The chain is going to be ready to be started.
+All gentx files are going to be collected into genesis file. New genesis is going to be pushed into the repo together with persistent_peers. The chain is going to be ready to be started.
 
