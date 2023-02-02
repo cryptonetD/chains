@@ -7,15 +7,27 @@ Separate repository is going to be used for storing testnet files. This reposito
 
 ## Prerequisites
 
+### Install go on Your system
+
+There are couple of possible options to install go on Your machine. I prefer not to use apt or yum for this. 
+Insted of that:
+1. Go to the go dev site: [Go Dev](https://go.dev/dl/)
+2. Copy the link to the last 1.19 version available to Your OS: for example: https://go.dev/dl/go1.19.5.linux-amd64.tar.gz
+3. Now use wget
+    wget https://go.dev/dl/go1.19.5.linux-amd64.tar.gz 
+4. And now untar it to Your preferred location (/usr/local/ on ubuntu)
+    tar -C /usr/local -xvf go1.19.5.linux-amd64.tar.gz
+5. Remember the path to go bin folder. You are going to need it in the next step
+
 ### Setup go environment
 
-Add a line to Your *.profile* file
+In Your user directory add a line to Your *.profile* file (or to Your *.bashrc* file in redhat based distros)
 
     export PATH=$PATH:<path_to_go_bin_directory>
 
 Reload profile
 
-    . .profile
+    . .profile or src .bashrc
 
 ### Clone repo
 
