@@ -3,6 +3,7 @@
 ## General remarks
 The testnet is generated with much of the settings of the orginal mainnet. The important thing is that it is going to be developed on the new repository, which is different to the current one.
 Guide is rather detailed and intended also for unexperienced users.
+Separate repository is going to be used for storing testnet files. This repository is a private one. **Please remember to apply for the access to the repo!**
 
 ## Prerequisites
 
@@ -65,7 +66,7 @@ Remember to secure the response You get on Your terminal.
 
 ### Pass the account to the project
 
-Your account address is going to be needed to create correct genesis with certain amount of lumen in it. So You have to place it here:
+Your account address is going to be needed to create correct genesis with certain amount of lumen in it. So You have to place it here: [Testnet repository](https://github.com/cryptonetD/lumentestnet)
 
 ## Prepare gentx file
 
@@ -74,11 +75,11 @@ Gentx transaction has to be created with the key created above. Chain has to be 
 
     lumenxd gentx <YOUR_KEY_NAME> 1000000ulumen --generate-only --offline --chain-id lumenx-test --amount 1000000stake
 
-The output of the command is going to be file located in .lumenx/config/gentx/ folder. **The content of the file can not be changed manually!**. Place the content of the file here:
+The output of the command is going to be file located in .lumenx/config/gentx/ folder. **The content of the file can not be changed manually!**. Place the content of the file under gentx folder in this repo: [Testnet repository](https://github.com/cryptonetD/lumentestnet)
 
 ## Modify the persistent_peers
 
-The chain has to communicate. The initial peers list consists of two addresses. It is enough to start chain: [persistent_peers](./persistent_peers.txt)
+The chain has to communicate. The initial peers list consists of two addresses. It is enough to start chain: [persistent_peers](./persistent_peers.txt). *But the final persistent_peers.txt* file is going to be available in the private repo: [Testnet repository](https://github.com/cryptonetD/lumentestnet)
 
 # Next steps
 
